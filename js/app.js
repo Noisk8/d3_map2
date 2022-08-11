@@ -8,7 +8,7 @@ const globeSize = {
     h: window.innerHeight
 }
 
-json('http://localhost/js/custom.geo.json').then(data => init(data))
+json('https://raw.githubusercontent.com/Noisk8/d3_map2/main/js/custom.geo.json').then(data => init(data))
 
 const init = data => {
     geojson = data
